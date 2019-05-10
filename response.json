@@ -1,0 +1,15 @@
+{
+    "message": {
+        "sender": "SENDER_NAME",
+        "initiator": "INITIATOR_NAME",
+        "priority": "PRIORITY_LEVEL",
+        "id": "COMMAND_ID",
+        "event": "EVENT_NAME",
+        "status": "STATUS",
+        "description": "DESCRIPTION",
+        "parameters": {
+            "PARAMETER1": "PARAMETER_VALUE1",
+            "PARAMETER2": "PARAMETER_VALUE2"
+        }
+    }
+}
