@@ -166,6 +166,10 @@ JavaScript (\ref{def:js}), язык разметки HTML (\ref{def:html}) и я
 
 \clearpage
 
+\section{Описание работы приложения.}
+
+\clearpage
+
 \section{Архитектура системы.}
 
 Как было сказано ранее данное ПО использует микросервисную архитектуру (\ref{def:microservices}). Каждый компонент системы
@@ -219,7 +223,7 @@ JavaScript (\ref{def:js}), язык разметки HTML (\ref{def:html}) и я
 Python (\ref{def:python}), а также фреймворк \textit{aiohttp}, который работает с помощью библиотеки для асинхронных вызовов
 \textit{asyncio}.
 
-\subsection{Взаимодействие компонентов.}
+\subsection{Взаимодействие частей системы.}
 
 Общаясь между собой компоненты системы передают информацию в формате JSON (\ref{def:json}) по следующему протоколу:
 \lstinputlisting[caption=Структура запроса.]{request.json}
@@ -237,3 +241,29 @@ Python (\ref{def:python}), а также фреймворк \textit{aiohttp}, к
     \item \textit{DESCRIPTION} - человекочитаемое описание события или ошибки.
     \item \textit{STATUS} - результат выполнения команды.
 \end{enumerate}
+
+\clearpage
+
+\section{Реализация программных модулей.}
+
+\subsection{Клиентская часть.}
+
+\subsection{Веб-сервер.}
+
+\subsection{Сервер MQTT.}
+
+\subsection{Модуль логики.}
+
+\subsection{Модуль с драйверами устройств.}
+
+\clearpage
+
+\section{Заключение.}
+
+\clearpage
+
+\section{Список источников.}
+
+\clearpage
+
+\section{Приложение.}
