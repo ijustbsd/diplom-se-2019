@@ -12,9 +12,10 @@ all:
 
 	# .tex
 	pdflatex diplom.tex
+	biber diplom
 	pdflatex diplom.tex
 	evince diplom.pdf &
 
 clean:
-	rm *.aux *.log *.out *.toc *.pdf
+	rm *.aux *.log *.out *.toc *.pdf *.bbl *.bcf *.blg *.xml
 	rm tp-output.*
